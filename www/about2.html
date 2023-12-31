@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+  <style>
+    body {
+
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f0f0;
+    }
+    .photo-frame {
+      display: flex;
+    }
+    .photo {
+      width: 25%; /* 4 fotoğrafı eşit genişlikte yapmak için */
+      padding: 5px;
+      box-sizing: border-box;
+    }
+    .photo img {
+      width: 100%;
+      object-fit: cover;
+      max-width: 100px;
+      max-height: 100px;
+      height: auto;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .header {
+      text-align: center;
+      padding: 20px 0;
+    }
+    .main-content {
+      padding: 20px 0;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #f8f9fa;
+    }
+    .flex-container {
+        display: flex;
+        margin: 15px;
+        flex-wrap: nowrap;
+        object-fit: contain;
+    }
+    .flex-container > div {
+        width: 100px;
+        margin: 5px 50px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 22px;
+        
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>Projemiz Hakkında</h1>
+      <p>Agni Kai</p>
+    </div>
+
+    <div class="main-content">
+      <h2>Projemiz</h2>
+      <p><a href="#">Konya Büyükşehir Belediyesinin Açık Verileri Platformu</a> üzerinden güneş paneli kapasite miktarını çeken ve makine öğrenmesi,veri bilimi ve yapay zeka kullanarak elimizdeki verileri işleyen işlenen verileri de excel verisi olarak olarak çıktı alan,çıktı alınan verinin de R dili ve Shiny benzeri R  kütüphaneleri ile verileri grafik haline çevirip teknik incelemesini kolaylaştıran bir data projesi yarattık.</p>
+      <hr>
+      <h2>Takım</h2>
+      <p>
+        <div class="photo-frame">
+            <img src="images/emre.jpg" alt="Your Photo" class="photo">
+            <img src="ahmet.jpg" alt="Your Photo" class="photo">
+            <img src="ismail.jpg" alt="Your Photo" class="photo">
+            <img src="berkan.jpg" alt="Your Photo" class="photo">
+        </div>
+        <div class="flex-container">
+            <div>Emre</div>
+            <div>Ahmet</div>
+            <div>İsmail</div>
+            <div>Samed</div>    
+          </div>
+          <footer id="footer"> 
+            Agni Kai <a style="text-decoration: none; color: grey" href="https://datathon.kapsulteknoloji.org/">&nbsp;&nbsp;@KAPSÜL DATATHON II</a>
+        </footer>   
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script> -->
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+</body>
+</html>
